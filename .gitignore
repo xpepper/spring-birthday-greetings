@@ -1,0 +1,6 @@
+*.class
+*.log
+*.jar
+*.war
+.idea/workspace.xml
+.idea/tasks.xml
