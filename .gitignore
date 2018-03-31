@@ -4,3 +4,4 @@
 *.war
 .idea/workspace.xml
 .idea/tasks.xml
+target
