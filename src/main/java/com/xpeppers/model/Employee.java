@@ -2,16 +2,17 @@ package com.xpeppers.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.time.LocalDate;
 
+import static javax.persistence.GenerationType.AUTO;
 import static org.apache.commons.lang3.builder.EqualsBuilder.reflectionEquals;
 
 @Entity
 public class Employee {
+
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = AUTO)
     private Integer id;
 
     private final String name;
